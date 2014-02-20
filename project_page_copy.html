@@ -1,0 +1,38 @@
+<!-- Rachelle Maconeghy -->
+
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>BS32011- Practical Project A</title>
+	</head>
+<!-- creates title for the web page at top of window -->
+
+	<h1 style="text-align:center;">Project Page</h1>
+<!-- main headline of the page and algins text to center-->
+	<body style="background-color:#9966FF;">
+<!-- makes the packground of the web page purple -->
+	<p style="color:white;margin-left:20px;text-align:center;">This is my project homepage where you can view and query my data.<b> Hopefully</b> everything works!
+	The data I used for my project is about the "Liver Response to Obsiety and Fasting".
+	It is the analysis of liver endoplasmic reticulum (ER) - asscoiated polysomes from leptin deficient (ob/ob) males after overnight fasting. 
+	The liver is critical for metabolic homeostasis.
+	Results provide insight into molecular mechanisms underlying changes in protein metabolism caused by obesity and diabeties.</p> 
+	<hr>
+	<p style="color:white;">For this project I have made several tables in which the data is stored. These are:</p>
+<!-- This is the description of what my data is in a paragraph -->	
+<ul style="color:white;">
+		<li>Genes</li>
+		<li>Experiment</li>
+		<li>Expressions_2</li>
+		<li>Probes</li>
+	</ul>
+<!-- this is an unordered list of the tables I have create in mysql -->
+	<form id=myform name=myform method=POST action=cgi/scriptname.py>
+	   <input type=text size=20 name=gene_ID value='gene_ID'/>
+	   <textarea rows=5 col=40 name=ID_REF> ID_REF</textarea>
+	   <input type=submit name=subit value='Query?'/>
+	</form>
+<!-- this is a form so that anyone can query my data -->
+	<a href="index.html">Back to Rachelle's Homepage</a>
+<!-- this is a link back to my homepage -->	
+	</body>
+</html>
