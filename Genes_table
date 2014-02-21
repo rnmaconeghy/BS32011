@@ -1,0 +1,11 @@
+#creates Genes table and loads data into correct rows from the genes.txt file
+
+#created using code in mysql
+
+>CREATE TABLE Genes (gene_ID VARCHAR(10), gene_symbol VARCHAR(30), 
+gene_title VARCHAR(100));
+
+>LOAD DATA LOCAL INFILE 'genes.txt' INTO TABLE Genes (gene_ID, gene_symbol,
+gene_title);
+
+

@@ -1,0 +1,36 @@
+#log onto mysql
+
+#this python command creates a table called Experiment with column titles and inserts data into the rows
+
+>CREATE TABLE Experiment (Samples VARCHAR(10), Genotype VARCHAR(10), 
+Protocol VARCHAR(20), Title VARCHAR(30);
+
+>INSERT INTO Experiment VALUES ('GSM967016','ob/ob','overnight fasted',
+'obese_liver_ER_20080725');
+
+>INSERT INTO Experiment VALUES ('GSM967008','ob/ob','overnight fasted',
+'obese_liver_ER_200800604');
+
+>INSERT INTO Experiment VALUES ('GSM967010','ob/ob','ad libitum fed',
+'obese_liver_ER_20080730');
+
+>INSERT INTO Experiment VALUES ('GSM967012','ob/ob','ad libitum fed',
+'obese_liver_ER_20080808');
+
+>INSERT INTO Experiment VALUES ('GSM967014','ob/ob','ad libitum fed',
+'obese_liver_ER_20080528');
+
+>INSERT INTO Experiment VALUES ('GSM967009','wild type','overnight fasted',
+'lean_liver_ER_20080604');
+
+>INSERT INTO Experiment VALUES ('GSM967017'),'wild type','overnight fasted',
+'lean_liver_ER_20080725');
+
+>INSERT INTO Experiment VALUES ('GSM967011','wild type','ad libitum fed',
+'lean_liver_ER_20080730');
+
+>INSERT INTO Experiment VALUES ('GSM967013','wild type','ad libitum fed',
+'lean_liver_ER_20080808');
+
+>INSERT INTO Experiment VALUES ('GSM967015','wild type','ad libitum fed',
+'lean_liver_ER_20080528');

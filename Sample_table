@@ -1,0 +1,7 @@
+#creates Sample table and loads data from .txt file into correct rows
+
+#created through using code in mysql
+
+>CREATE TABLE Sample (Sample VARCHAR(50), ID_REF VARCHAR(50));
+
+>LOAD DATA LOCAL INFILE 'samples.txt' INTO TABLE Sample (Sample, ID_REF);

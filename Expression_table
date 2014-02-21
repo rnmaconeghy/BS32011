@@ -1,0 +1,14 @@
+#creates Expression_2 table and loads data from file into correct rows
+
+#done through mysql
+
+>CREATE TABLE Expression_2 (Sample VARCHAR(50), ID_REF VARCHAR(50), 
+expression_value VARCHAR(50));
+
+>LOAD DATA LOCAL INFILE 'expression.txt' INTO TABLE Expression_2 
+(Sample, ID_REF, expression_value);
+
+#creates a foreign key to link ID_REF values to Probes table
+
+>ALTER TABLE Expression_2 ADD FOREIGN KEY (ID_REF) References Probes (ID_REF);
+

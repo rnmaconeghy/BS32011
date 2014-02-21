@@ -1,0 +1,13 @@
+#creates the table Probes using code in mysql
+
+#allows data to allocate itself to the correct rows
+
+>CREATE TABLE Probes (ID_REF VARCHAR(50), gene_ID VARCHAR(50));
+
+>LOAD DATA LOCAL INFILE 'probes.txt' INTO TABLE Probes (ID_REF, gene_ID);
+
+#creates foreign key for gene_ID to connect to the Genes table
+
+>ALTER TABLE Probes ADD FOREIGN KEY (gene_ID) References Genes (gene_ID);
+
+
