@@ -1,0 +1,22 @@
+Experiment_table is the code I used to create my experiment table. 
+All the information was entered manually. Information was found on the GEO site.
+
+Experession_table is the code used in mySQL to create the table and data was entered from the expression text file.
+
+Genes_table is the code used in mySQL to create the table and data was entered from the genes.txt file. Also foreign keys were also created.
+
+Probes_table is the code used in mySQL to create the table and data was enterd from the probes.txt file. 
+
+Sample_table is the code used in mySQL to create the table and data was entered from the sample.txt file.
+
+GDS4506_full_copy.soft is all the data downloaded from the GEO website.
+
+README.md was a test document from when my github was created.
+
+models1_copy.py is the python code written to create classes for my tables.
+
+overview.md is a test document from when my github was created. 
+
+project_page_copy.html is the html code I have written for my web page. This page also has a link to my homepage which is unfinished. There is also code for a form but it is not working at this time. 
+
+readdata_copy.py is the python code written for the GDS4506_full.soft file so that python could create four individual text files that would be able to be imported into my tables
